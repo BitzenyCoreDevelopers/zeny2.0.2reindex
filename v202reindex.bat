@@ -19,7 +19,7 @@ goto v_is_ng
 rem レジストリからbitzeny-qt.exeのパスを見つけ出してcdを行う
 :reg_search
 FOR /F "TOKENS=1,2,*" %%A IN ('REG QUERY "HKEY_LOCAL_MACHINE\SOFTWARE\Classes\bitzeny\DefaultIcon" /v ""') DO IF "%%A"=="(既定)" SET GET_VALUE=%%C
-cd %GET_VALUE:~0,-15%
+cd /D %GET_VALUE:~0,-15%
 exit /b
 
 rem bitzenyd not found
