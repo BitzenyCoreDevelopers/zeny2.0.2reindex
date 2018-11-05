@@ -26,7 +26,13 @@ For synchronizing the latest blockchain index "without downloading from 0 block"
 
 * bitzenyd for Windows (CLI)
 
-Now Writing...
+1. Download "zeny2.0.2reindex.zip"
+1. Unzip "zeny2.0.2reindex.zip"
+1. Copy "v202reindex.bat" to "bitzeny-qt" installed folder.
+1. Open cmd.exe
+1. "cd" to "bitzeny-qt" installed folder on CLI.
+1. run "v202reindex.bat" 
+
 
 ## Trouble shooting
 
@@ -37,8 +43,8 @@ Note that "how to manually create shortcuts."
 1. Create shortcut to coin-qt.exe on disktop
 1. right-click and  probaty -> Link -> check text
 1. add  "-reindex-chainstate"
-      For example: 
-      ```"C:\Program Files\BitZeny\bitzeny-qt.exe" ```
-      change to
-      ```"C:\Program Files\BitZeny\bitzeny-qt.exe" -reindex-chainstate```
+<br>[For example:]<br>
+```"C:\Program Files\BitZeny\bitzeny-qt.exe" ```
+<br>change to<br>
+```"C:\Program Files\BitZeny\bitzeny-qt.exe" -reindex-chainstate```<br><br>
 1. Click "OK" and click shortcut icon.
